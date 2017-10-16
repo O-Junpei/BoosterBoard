@@ -1,0 +1,155 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Q_NJFET_DGS Q?
+U 1 1 59E4E969
+P 4850 3650
+F 0 "Q?" H 5150 3700 50  0000 R CNN
+F 1 "Q_NJFET_DGS" H 5500 3600 50  0000 R CNN
+F 2 "" H 5050 3750 50  0000 C CNN
+F 3 "" H 4850 3650 50  0000 C CNN
+	1    4850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59E4E9AA
+P 2400 3450
+F 0 "C?" H 2425 3550 50  0000 L CNN
+F 1 "0.01μF" H 2425 3350 50  0000 L CNN
+F 2 "" H 2438 3300 50  0000 C CNN
+F 3 "" H 2400 3450 50  0000 C CNN
+	1    2400 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 59E4E9EA
+P 3800 4650
+F 0 "C?" H 3825 4750 50  0000 L CNN
+F 1 "C" H 3825 4550 50  0000 L CNN
+F 2 "" H 3838 4500 50  0000 C CNN
+F 3 "" H 3800 4650 50  0000 C CNN
+	1    3800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59E4EA0A
+P 3850 4400
+F 0 "C?" H 3875 4500 50  0000 L CNN
+F 1 "C" H 3875 4300 50  0000 L CNN
+F 2 "" H 3888 4250 50  0000 C CNN
+F 3 "" H 3850 4400 50  0000 C CNN
+	1    3850 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59E4EA51
+P 4350 4900
+F 0 "R?" V 4430 4900 50  0000 C CNN
+F 1 "R" V 4350 4900 50  0000 C CNN
+F 2 "" V 4280 4900 50  0000 C CNN
+F 3 "" H 4350 4900 50  0000 C CNN
+	1    4350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59E4EA87
+P 4350 3950
+F 0 "R?" V 4430 3950 50  0000 C CNN
+F 1 "R" V 4350 3950 50  0000 C CNN
+F 2 "" V 4280 3950 50  0000 C CNN
+F 3 "" H 4350 3950 50  0000 C CNN
+	1    4350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59E4EACC
+P 2600 3850
+F 0 "R?" V 2680 3850 50  0000 C CNN
+F 1 "1MΩ" V 2600 3850 50  0000 C CNN
+F 2 "" V 2530 3850 50  0000 C CNN
+F 3 "" H 2600 3850 50  0000 C CNN
+	1    2600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59E4EB15
+P 4800 4400
+F 0 "R?" V 4880 4400 50  0000 C CNN
+F 1 "R" V 4800 4400 50  0000 C CNN
+F 2 "" V 4730 4400 50  0000 C CNN
+F 3 "" H 4800 4400 50  0000 C CNN
+	1    4800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VR VR?
+U 1 1 59E4EB74
+P 5600 4650
+F 0 "VR?" V 5660 4604 50  0000 C TNN
+F 1 "VR" V 5600 4650 50  0000 C CNN
+F 2 "" H 5600 4650 50  0000 C CNN
+F 3 "" H 5600 4650 50  0000 C CNN
+	1    5600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +9V #PWR?
+U 1 1 59E4EBB8
+P 3700 2400
+F 0 "#PWR?" H 3700 2250 50  0001 C CNN
+F 1 "+9V" H 3700 2540 50  0000 C CNN
+F 2 "" H 3700 2400 50  0000 C CNN
+F 3 "" H 3700 2400 50  0000 C CNN
+	1    3700 2400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
